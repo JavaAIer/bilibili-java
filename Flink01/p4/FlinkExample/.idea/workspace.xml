@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf236f63-0172-4c7c-a302-6697d709f577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/javaaier/SocketWindowWordCountScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/javaaier/BatchWordCountScala.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlinkExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaaier/BatchWordCountJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaaier/BatchWordCountJava.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +17,49 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="5">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/scala/com/javaaier/BatchWordCountScala.scala">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="26">
+                    <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaaier/BatchWordCountJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/javaaier/SocketWindowWordCountScala.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="e#22#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +85,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaaier/SocketWindowWordCountJava.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/javaaier/SocketWindowWordCountScala.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaaier/BatchWordCountJava.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/javaaier/BatchWordCountScala.scala" />
       </list>
     </option>
   </component>
@@ -81,7 +121,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="662" />
@@ -96,7 +136,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,10 +188,56 @@
               <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-core-1.6.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-core-1.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-core-1.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-core-1.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-core:1.6.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-core-1.6.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +265,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocketWindowWordCountScala">
+  <component name="RunManager" selected="Application.BatchWordCountScala">
+    <configuration name="BatchWordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaaier.BatchWordCountJava" />
+      <module name="FlinkExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaaier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchWordCountScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaaier.BatchWordCountScala" />
+      <module name="FlinkExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaaier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocketWindowWordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaaier.SocketWindowWordCountJava" />
       <module name="FlinkExample" />
@@ -209,6 +320,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BatchWordCountScala" />
+        <item itemvalue="Application.BatchWordCountJava" />
         <item itemvalue="Application.SocketWindowWordCountScala" />
         <item itemvalue="Application.SocketWindowWordCountJava" />
       </list>
@@ -229,33 +342,34 @@
       <workItem from="1569564508236" duration="696000" />
       <workItem from="1569568263272" duration="3385000" />
       <workItem from="1569574441510" duration="1519000" />
+      <workItem from="1569718192143" duration="5608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11415000" />
+    <option name="totallyTimeSpent" value="17023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Learn" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49578413" visible="true" weight="0.2657078" />
-      <window_info id="Structure" order="5" sideWeight="0.50421584" side_tool="true" visible="true" weight="0.2657078" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49244714" visible="true" weight="0.2702498" />
+      <window_info id="Structure" order="5" sideWeight="0.50755286" side_tool="true" weight="0.2702498" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3288364" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.42664418" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.42495784" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="MyBatis Log" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.4940978" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.44182125" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -266,7 +380,7 @@
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32323998" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.17335352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -276,20 +390,20 @@
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Learn" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" weight="0.24981076" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49244714" visible="true" weight="0.2702498" />
+      <window_info id="Structure" order="5" sideWeight="0.50755286" side_tool="true" visible="true" weight="0.2702498" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3288364" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.42657343" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="MyBatis Log" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.44182125" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -300,7 +414,7 @@
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32323998" />
+      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.17335352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -355,13 +469,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.6.4/flink-core-1.6.4.jar!/org/apache/flink/api/common/functions/FlatMapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.6.4/flink-core-1.6.4-sources.jar!/org/apache/flink/api/common/functions/FlatMapFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaaier/BatchWordCountJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/javaaier/SocketWindowWordCountScala.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="e#22#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/javaaier/BatchWordCountScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
